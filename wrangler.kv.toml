@@ -2,8 +2,13 @@ name = "nodewarden"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
+[vars]
+JWT_SECRET = "P-sMIFkGKvOZ69aucI5whZqrKsuRaIB-"
+INVITE_CODE = "nodewarden"
+
 [build]
 command = "npm run build"
+
 
 [assets]
 binding = "ASSETS"
